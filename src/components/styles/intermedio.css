@@ -1,0 +1,35 @@
+.contaniner__cards-intermedio {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 100%;
+    padding: 0 20px;
+    margin: 30px auto;
+    gap: 2.5rem;
+    
+    
+}
+
+.titlle__intermedio {
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 1rem;
+    color: rgb(138, 47, 223);
+    text-decoration:underline;
+}
+
+
+@media (max-width: 600px) {
+    .contaniner__cards-intermedio {
+        grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+        max-width: 300px;
+        gap: 1rem;
+        padding: 0;
+       
+    }
+
+    .titlle__intermedio {
+        letter-spacing: 0.2rem;
+    }
+}

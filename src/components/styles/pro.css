@@ -1,0 +1,29 @@
+.contaniner__cards-pro {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 100%;
+    padding: 0 20px;
+    margin: 30px auto;
+    gap: 2.5rem;
+   
+}
+
+.titlle__pro {
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 1rem;
+    color: rgb(223, 47, 47);
+    text-decoration:underline;
+}
+
+@media (max-width: 850px) {
+    .contaniner__cards-pro {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        max-width: 300px;
+        gap: 1rem;
+        padding: 0;
+       
+    }
+}
