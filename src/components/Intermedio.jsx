@@ -21,7 +21,7 @@ const Intermedio = () => {
 
     const validateCards = newIndexCard => {
         setTimeout(() => {
-            if (cards[prevIndexCard].icon === cards[newIndexCard].icon) {
+            if (cards[prevIndexCard].icon === cards[newIndexCard].icon && cards[prevIndexCard].id !== cards[newIndexCard].id) {
                 cards[prevIndexCard].status = "up"
                 cards[newIndexCard].status = "up"
             } else {
