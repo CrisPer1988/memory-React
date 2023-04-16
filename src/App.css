@@ -5,40 +5,48 @@
     width: 600px;
     margin: 30px auto;
     gap: 2.5rem;
-    
 }
 
 .card {
     /* background-color: aqua; */
-    border: 5px solid rgb(82, 82, 82);
+    border: 2px solid rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
+    border-radius: 10px;
     width: 100px;
     aspect-ratio: 1;
     font-size: 2rem;
     cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    filter:brightness(75%);
+
 }
 
 .tittle__basico {
     text-align: center;
     font-size: 3rem;
     letter-spacing: 1rem;
-    color: rgb(177, 176, 176);
+    color: rgb(255, 255, 255);
+    font-family: monospace;
     text-decoration:underline;
 }
 
 .card.down {
-    background-color: rgba(0, 0, 255, 0.774);
+    background-color: rgb(254, 145, 21);
 }
 
+
 .card.up {
-    background-color: rgba(31, 207, 31, 0.774);
+    background-color: rgb(31, 207, 31);
 }
 
 .card.selected {
-    background-color: rgba(255, 255, 0, 0.788);
+    background-color: rgb(255, 255, 0);
 }
 
  @media (max-width: 600px) {

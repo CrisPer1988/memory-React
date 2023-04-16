@@ -15,9 +15,9 @@ const Header = () => {
       <button onClick={burguerMenu} className='burguer'>{isShow ? "x" : <i class='bx bx-menu'></i>}</button>
         <nav>
             <ul className={`navBar ${isShow ? "navBar__active" : ""}`}>
-                <li><Link to={"/"}>Básico</Link></li>
-                <li><Link to={"holaa"}>Intermedio</Link></li>
-                <li><Link to={"/pro"}>Pro</Link></li>
+                <li className='item__navbar'><Link onClick={burguerMenu} to={"/"}>Básico</Link></li>
+                <li className='item__navbar'><Link onClick={burguerMenu} to={"holaa"}>Intermedio</Link></li>
+                <li className='item__navbar'><Link onClick={burguerMenu} to={"/pro"}>Pro</Link></li>
             </ul>
         </nav>
     </div>

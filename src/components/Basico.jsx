@@ -18,6 +18,7 @@ const Basico = () => {
         }
     }
 
+
     const validateCards = newIndexCard => {
         setTimeout(() => {
             if (cards[prevIndexCard].icon === cards[newIndexCard].icon && cards[prevIndexCard].id !== cards[newIndexCard].id) {
@@ -32,6 +33,8 @@ const Basico = () => {
         }, 1300);
 
     }
+
+  
    
     return (
         <div className="App">
@@ -50,6 +53,7 @@ const Basico = () => {
                     ))
                 }
             </div>
+           
         </div>
     )
 }

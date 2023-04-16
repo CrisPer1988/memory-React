@@ -1,11 +1,10 @@
 .contaniner__cards-intermedio {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    width: 100%;
-    padding: 0 20px;
+    /* grid-template-rows: repeat(4, 1fr); */
+    width: 700px;
     margin: 30px auto;
-    gap: 2.5rem;
+    gap: 2rem;
     
     
 }
@@ -14,7 +13,10 @@
     text-align: center;
     font-size: 3rem;
     letter-spacing: 1rem;
-    color: rgb(138, 47, 223);
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+
+    
     text-decoration:underline;
 }
 
