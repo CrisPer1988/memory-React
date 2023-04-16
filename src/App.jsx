@@ -13,7 +13,7 @@ function App() {
     <Header />
     <Routes>
       <Route path='/' element={<Basico />} />
-      <Route path='/holaa' element={<Intermedio />} />
+      <Route path='/intermedio' element={<Intermedio />} />
       <Route path='/pro' element={<Pro />} />
     </Routes>
     </div>
