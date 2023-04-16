@@ -12,7 +12,7 @@ const Header = () => {
 
   return (
     <div className='container__header'>
-      <button onClick={burguerMenu} className='burguer'>{isShow ? "x" : <i class='bx bx-menu'></i>}</button>
+      <button onClick={burguerMenu} className='burguer'>{isShow ? "x" : <i className='bx bx-menu'></i>}</button>
         <nav>
             <ul className={`navBar ${isShow ? "navBar__active" : ""}`}>
                 <li className='item__navbar'><Link onClick={burguerMenu} to={"/"}>Básico</Link></li>
